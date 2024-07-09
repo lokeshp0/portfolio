@@ -1,0 +1,381 @@
+p {
+  font-size: 1.1rem;
+  color: #7a7171;
+  position: relative;
+}
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  text-align: left;
+}
+/* NAVIGATION AREA START  */
+
+/* .link_background {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 120px;
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+  border: none;
+} */
+.header-area {
+  width: 100%;
+  position: absolute;
+}
+.nav-box {
+  background-color: inherit !important;
+  border-radius: 100px;
+  color: white !important;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-box:hover {
+  color: #0a0b0b !important;
+  transition: 0.4s;
+}
+/* .active_link {
+  color: white;
+  transition: all 0.4s linear;
+}
+
+.deactivat_link {
+  color: #0a0b0b !important;
+  transition: all 0.4s linear;
+} */
+.header-left {
+  background-color: inherit !important;
+  border-radius: 100px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+.header-left:hover {
+  color: #3b3c3b;
+  background-color: #ffffff !important;
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.header-right {
+  background-color: inherit !important;
+  border-radius: 100px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.header-right:hover{
+  color: #3b3c3b;
+  background-color: #ffffff !important;
+}
+.link_box {
+  display: block;
+}
+.mobile_link {
+  /* padding: 5px 15px; */
+  transition: all 0.4s linear;
+  width: 100%;
+  text-decoration: none;
+}
+.mobile_link:hover>button{
+  color: #ffffff !important;
+  background: #0bceaf;
+}
+.mobile_link  button{
+  border: none;
+  outline: none;
+  background: none;
+  text-align: left;
+}
+
+/* NAVIGATION AREA END  */
+
+/* HOME SECTION START  */
+.home_page {
+  height: 100vh;
+  background-color: #0bceaf;
+  background-size: cover;
+}
+.view-box {
+  background-color: inherit !important;
+  border-radius: 100px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+.view-box:hover {
+  color: #3b3c3b;
+  background-color: #ffffff !important;
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.home_photo {
+  padding-top: 110px;
+  padding-left: 100px;
+}
+
+/* HOME SECTION END  */
+
+/* ABOUT SECTION  */
+.about-page {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  text-align: left;
+}
+.container {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.secondary {
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(130, 125, 125);
+}
+.about_subheading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: #0bceaf;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.img-size {
+  width: 220px;
+  transition: 0.3s;
+}
+.img-size:hover {
+  width: 270px !important;
+}
+.download-box {
+  background-color: inherit !important;
+  border-radius: 100px;
+  color: #0bceaf;
+  border: 2px solid #0bceaf;
+  font-family: "Times New Roman", Times, serif;
+}
+.download-box:hover {
+  color: #ffffff;
+  background-color: #0bceaf !important;
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.my_heading {
+  font-size: 130px;
+  -webkit-text-stroke: 1px #dee2e6;
+}
+.my_info_h {
+  text-align: left;
+}
+/* ABOUT SECTION END  */
+
+/* EDUCATION SECTION START */
+.education-page {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+}
+.education_subheading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: #0bceaf;
+}
+.info_area {
+  text-align: left;
+  font-family: Georgia;
+}
+.my_heading_s{
+  font-size: 130px;
+  -webkit-text-stroke: 1px #dee2e6;
+}
+/* EDUCATION SECTION END */
+
+/* SKILLS SECTION START*/
+.skills_area {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+.skill_subheading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: #0bceaf;
+}
+.icon {
+  justify-content: center;
+  align-items: center;
+}
+.skills_img {
+  height: 250px;
+}
+.skills_img1 {
+  height: 200px;
+}
+.skills_img2 {
+  height: 200px;
+}
+.skills_img3 {
+  height: 225px;
+}
+.skills_img4 {
+  height: 225px;
+}
+.skills_img5 {
+  height: 75px;
+}
+.logo_size {
+  height: 80px;
+  width: 80px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+.skill_box {
+  width: 75% !important;
+}
+.skill_box:hover > .logo_size {
+  width: 110px;
+  height: 110px;
+}
+
+/* SKILL SECTION END  */
+
+/* CONTACT SECTION START  */
+.contact_area {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+}
+.contact_subheading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: #0bceaf;
+}
+.control-group {
+  position: relative;
+  width: 100%;
+}
+.form-control {
+  border-radius: 25px !important;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.p-4 {
+  padding: 1, 5rem !important;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.my_button {
+  padding: 10px 25px !important;
+  border-radius: 100px !important;
+  color: #0bceaf !important;
+  border: 1px solid #0bceaf !important;
+  font-size: 20px !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+.my_button:hover {
+  color: #fff !important;
+  background-color: #0bceaf !important;
+  transition: 0.3s !important;
+  transform: scale(0.9);
+}
+.my_heading_c{
+  font-size: 130px;
+  -webkit-text-stroke: 1px #dee2e6;
+}
+
+/* CONTACT SECTION END  */
+
+/* FOOTER SECTION START  */
+.footer-section {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #0bceaf;
+}
+
+/* FOOTER SECTION END  */
+
+/* MEDIA QUERIES START  */  
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .header-left {
+    font-size: 20px !important;
+  }
+  .home_photo {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .my_heading {
+    font-size: 90px;
+  }
+  .my_heading_c{
+    font-size: 75px;
+  }
+  .my_heading_s{
+    font-size: 85px;
+  }
+  .img-size {
+    width: 200px;
+  }
+  .my_info_h {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .home_page {
+    height: fit-content;
+    padding-bottom: 15px;
+  }
+  .info_area {
+   text-align: center;
+  }
+  .skill_box {
+    width: 100% !important;
+  }
+}
