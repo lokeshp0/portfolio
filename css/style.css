@@ -1,13 +1,13 @@
 p {
   font-size: 1.1rem;
-  color: #7a7171;
+  color: #787878;
   position: relative;
 }
 body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c757d;
+  color: #5d6770;
   text-align: left;
 }
 /* NAVIGATION AREA START  */
@@ -93,7 +93,6 @@ body {
 
 /* HOME SECTION START  */
 .home_page {
-  height: 100vh;
   background-color: #0bceaf;
   background-size: cover;
 }
@@ -127,8 +126,6 @@ body {
   text-align: left;
 }
 .container {
-  padding-top: 25px;
-  padding-bottom: 30px;
   position: relative;
 }
 .secondary {
@@ -175,6 +172,9 @@ body {
 .my_info_h {
   text-align: left;
 }
+.p_justify{
+  text-align: justify;
+}
 /* ABOUT SECTION END  */
 
 /* EDUCATION SECTION START */
@@ -202,6 +202,16 @@ body {
 .my_heading_s{
   font-size: 130px;
   -webkit-text-stroke: 1px #dee2e6;
+}
+.quelity_icon{
+  position: absolute;
+  left: -24px;
+  top: 7px;
+}
+.p_height{
+  min-height: 250px;
+  overflow: hidden;
+  transition: all 0.5s linear !important;
 }
 /* EDUCATION SECTION END */
 
@@ -302,6 +312,7 @@ body {
 .p-4 {
   padding: 1, 5rem !important;
 }
+
 .form-control:focus {
   color: #495057;
   background-color: #fff;
@@ -343,6 +354,14 @@ body {
 /* FOOTER SECTION END  */
 
 /* MEDIA QUERIES START  */  
+@media only screen and (max-width: 600px) {
+  .my_heading_c{
+    font-size: 65px;
+  }
+  .my_heading_s{
+    font-size: 60px;
+  }
+}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .header-left {
@@ -356,10 +375,10 @@ body {
     font-size: 90px;
   }
   .my_heading_c{
-    font-size: 75px;
+    font-size: 65px;
   }
   .my_heading_s{
-    font-size: 85px;
+    font-size: 70px;
   }
   .img-size {
     width: 200px;
