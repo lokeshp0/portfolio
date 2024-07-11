@@ -325,7 +325,7 @@ body {
   border-radius: 100px !important;
   color: #0bceaf !important;
   border: 1px solid #0bceaf !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   font-family: "Times New Roman", Times, serif !important;
 }
 .my_button:hover {
@@ -350,18 +350,30 @@ body {
   color: #ffffff;
   background-color: #0bceaf;
 }
+.btn-social{
+  width: 45px;
+  height: 42px;
+  text-align: center !important;
+  border-radius: 45px  !important;
+  box-sizing: border-box;
+  
+}
+.my_social_media_icon{
+  background-color: white;
+  color: rgb(11, 9, 9) !important;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+}
+.my_social_media_icon:hover{
+  border-radius: 25%;
+  background-color: rgba(173, 171, 171, 0.686);
+  color: #0a0b0b;
+}
 
 /* FOOTER SECTION END  */
 
 /* MEDIA QUERIES START  */  
-@media only screen and (max-width: 600px) {
-  .my_heading_c{
-    font-size: 65px;
-  }
-  .my_heading_s{
-    font-size: 60px;
-  }
-}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .header-left {
@@ -378,7 +390,7 @@ body {
     font-size: 65px;
   }
   .my_heading_s{
-    font-size: 70px;
+    font-size: 60px;
   }
   .img-size {
     width: 200px;
@@ -397,4 +409,14 @@ body {
   .skill_box {
     width: 100% !important;
   }
+  .my_button {
+    font-size: 18px !important;
+  }
+}
+ 
+
+/* media query for tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
 }
