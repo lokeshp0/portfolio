@@ -38,6 +38,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
     <title>Lokesh</title>
   </head>
@@ -118,7 +119,7 @@
                   <a
                     href="#contact-section"
                     class="text-decoration-none fs-4 z-3 position-relative nav-box"
-                    >Cotacnt</a
+                    >Contact</a
                   >
                 </div>
               </div>
@@ -253,8 +254,7 @@
                 <img
                   src="./img/lokesh1.png"
                   alt="photo"
-                  height="100px"
-                  class="img-fluid"
+                  style="height: 320px; width: 200pxs"
                 />
               </div>
             </div>
@@ -266,6 +266,7 @@
                 font-family: 'Lobster Two', sans-serif;
                 font-family: 'Neuton', serif;
               "
+              data-aos="zoom-in"
             >
               Lokesh Prajapati
             </h1>
@@ -274,6 +275,7 @@
                 font-family: 'Lobster Two', sans-serif;
                 font-family: 'Neuton', serif;
               "
+             
             >
               Java Developer...
             </h3>
@@ -311,7 +313,7 @@
     <!-- Home section end  -->
     <!-- About section strat -->
 
-    <section id="about-section">
+    <section id="about-section" data-aos="fade-up">
       <div class="container-fluid about_page py-3">
         <div class="container">
           <div class="row position-relative">
@@ -327,6 +329,7 @@
               <div class="row">
                 <div
                   class="col-12 col-md-5 text-center d-flex align-items-center justify-content-center"
+                  data-aos="fade-up"
                 >
                   <img src="img/Lokesh3.png" class="img-size" />
                 </div>
@@ -337,9 +340,9 @@
                   <p class="text-secondary p_justify">
                     My Name is <strong> Lokesh Prajapati.</strong> now i have
                     done my Bachelor of Technology in Computer Science form
-                    <strong> 'RGPV University'.</strong> I have done my graduation
-                    in 2023. I am a passionate and diligent graduate with a
-                    degree in Computer Science, specializing in Java
+                    <strong> 'RGPV University'.</strong> I have done my
+                    graduation in 2023. I am a passionate and diligent graduate
+                    with a degree in Computer Science, specializing in Java
                     development. My journey in the world of programming has just
                     begun, and I am excited to contribute my skills to
                     innovative projects. Here's a glimpse into my world :
@@ -587,9 +590,18 @@
             <h2 class="skill_subheading text-center">MY SKILL</h2>
           </div>
           <div class="row">
+            <!-- <div class="col-md-4 col-6 py-4">
+              <div
+                class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+              >
+                <img src="img/java_logo.png" class="logo_size" alt="" />
+                <h2 class="fw-bold fs-4 py-2 text-secondary">JAVA</h2>
+              </div>
+            </div> -->
             <div class="col-md-4 col-6 py-4">
               <div
                 class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+                data-aos="zoom-in"
               >
                 <img src="img/java_logo.png" class="logo_size" alt="" />
                 <h2 class="fw-bold fs-4 py-2 text-secondary">JAVA</h2>
@@ -598,6 +610,7 @@
             <div class="col-md-4 col-6 py-4">
               <div
                 class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+                data-aos="zoom-in"
               >
                 <img src="img/c++_logo.png" class="logo_size" alt="" />
                 <h2 class="fw-bold fs-4 py-2 text-secondary">C++</h2>
@@ -606,6 +619,7 @@
             <div class="col-md-4 col-6 py-4">
               <div
                 class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+                data-aos="zoom-in"
               >
                 <img src="img/C_logo.png" class="logo_size" alt="" />
                 <h2 class="fw-bold fs-4 py-2 text-secondary">C</h2>
@@ -614,6 +628,7 @@
             <div class="col-md-4 col-6 py-4">
               <div
                 class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+                data-aos="zoom-in"
               >
                 <img src="img/html-5.png" class="logo_size" alt="" />
                 <h2 class="fw-bold fs-4 py-2 text-secondary">HTML</h2>
@@ -622,6 +637,7 @@
             <div class="col-md-4 col-6 py-4">
               <div
                 class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+                data-aos="zoom-in"
               >
                 <img src="img/css-3.png" class="logo_size" alt="" />
                 <h2 class="fw-bold fs-4 py-2 text-secondary">CSS</h2>
@@ -630,6 +646,7 @@
             <div class="col-md-4 col-6 py-4">
               <div
                 class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+                data-aos="zoom-in"
               >
                 <img src="img/js.png" class="logo_size" alt="" />
                 <h2 class="fw-bold fs-4 py-2 text-secondary">JAVASCRIPT</h2>
@@ -638,6 +655,7 @@
             <div class="col-md-4 col-6 py-4 mx-auto">
               <div
                 class="mx-auto shadow d-flex flex-column align-items-center px-3 py-2 skill_box"
+                data-aos="zoom-in"
               >
                 <img src="img/bootstrap_logo.jpg" class="logo_size" alt="" />
                 <h2 class="fw-bold fs-4 py-2 text-secondary">BOOTSTRAP</h2>
@@ -665,11 +683,7 @@
             <div class="col-lg-8">
               <div class="contact-form text-center">
                 <div id="success"></div>
-                <form
-                  name="sentMessage"
-                  id="contactForm"
-                  novalidate="novalidate"
-                >
+                <form>
                   <div class="row">
                     <div class="control-group col-sm-6">
                       <input
@@ -735,7 +749,7 @@
     </section>
 
     <!-- contact section end  -->
-     
+
     <!-- Footer Start -->
     <footer>
       <div class="container-fluid footer-section py-4 py-md-5 mt-4">
@@ -791,7 +805,13 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
     <script src="./js/customjs.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+        once: true,
+      });
+    </script>
   </body>
 </html>
